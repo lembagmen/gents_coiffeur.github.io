@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Blog</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="industry_news_style.css">
+   <style>
+      body{
+         display: flex;
+         flex-direction: column;
+         background-color: #fff9e9;
+         font-family: Geneva, sans-serif;
+      }
+      nav{
+         background-color: #4b9ab4;
+         font-weight:normal;
+         font-size: 24px;
+      }
+      img{
+         width: 350px;
+      }
+      main{
+         background-color: #ccdee2;
+      }
+      figure i{
+         background-color: #4b9ab4;
+      }
+      /*attribute selector*/
+      img[src="images/haberdashery.png"]{
+         width: 100%;
+      }
+      aside{
+         background-color: #bb2b2a;
+         color: #fff9e9;
+      }
+      aside h4{
+         color: black;
+      }
+      aside img{
+         width: 250px;
+         border-radius: 125px;
+      }
+      section{
+         background-color: #553f3a;
+      }
+      section h2{
+         color: #fff9e9;
+      }
+      #instagram{
+      text-decoration: none;
+      }
+      #pre_order{
+         border-radius: 10px;
+         text-decoration: none;
+         color: #fff9e9;
+         background-color: #bb2b2a;
+      }
+      footer{
+         background-color: black;
+      }
+      footer p{
+         color:#fff9e9;
+         display: flex;
+         align-items: center;
+      }
+      #the_barbers img{
+         width: 200px;
+         border-radius: 100px;
+      }
+      .carousel-caption{
+         position: relative;
+         left: auto;
+         right: auto;
+      }
+      form{
+         background-color: #4b9ab4;
+         border-radius: 10px;
+      }
+      @media screen and (max-width:540px){
+      #home_article{
+         padding-left: 60px;
+      }
+      #haberdashery{
+         display: none;
+      }
+      .instagram{
+         margin-left: 105px;
+         }
+      .the_roach_book{
+         margin-left: 92.5px;
+         }
+      #pre_order{
+         width: 300px;
+         text-align: center;
+         padding-right: 15px;
+      }
+      .trending{
+         margin-left: 65px;
+         }
+      .gc_footer{
+         margin: 0px 50px 0px 50px;
+         }
+      }
+   </style>
+</head>
+<body>
+   <!-- <div class="card p-0 m-0"> -->
+      <div class="card-header">
+         <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid col-sm-6 offset-sm-3">
+               <img class="me-5" src="images/header_logo.png" alt="gents_coiffeur_logo" title="Gent's Coiffeur Logo">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_toggler">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse ms-3" id="navbar_toggler">
+                  <div class="navbar-nav nav nav-pills card-header-pills">
+                     <ul class="list-inline">
+                        <!-- <li class="list-inline-item px-1"><a href="industry_news.html" class="nav-item nav-link ps-1 active" data-bs-toggle="tab"><i class="bi bi-newspaper"></i> Blogs</a>
+                        </li> -->
+                        <li class="list-inline-item px-1"><a href="gents_coiffeur.html" role="button" class="nav-item nav-link "><i class="bi bi-house-fill"></i> Return Home <i class="bi bi-arrow-return-left"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </div>
+               <main class="col-sm-8 offset-sm-2 row">
+                  <img src="images/congratulations.png" class="p-5" alt="congratulations" title="Successfully booked your appointment!">
+               </main>
+               <section class="col-sm-12 row m-0">
+                  <div class="col-sm-8 offset-sm-2 row ps-0">
+                     <div class="col-sm-4 py-5 instagram ps-0">
+                        <h2 class="fw-semibold pb-3">INSTAGRAM</h2>
+                        <a href="https://www.instagram.com/reuzel/" target="_blank"><img src="images/instagram.jpg" alt="instagram_photo" title="instagram photos"></a>
+                        <a id="instagram" href="https://www.instagram.com/reuzel/" target="_blank"><p class="pt-3 text-start"><i class="bi bi-instagram"></i> Follow @gentscoiffeur on Instagram</p></a>
+                     </div>
+                     <div class="col-sm-4 py-5 the_roach_book">
+                        <h2 class="fw-semibold pb-3">THE ROACH BOOK</h2>
+                        <a href="https://schorembarbier.nl/roach/" target="_blank"><img src="images/roach.png"></a>
+                        <a type="button" class="col-sm-9 row m-4 py-2 ps-4 border-0" id="pre_order" href="mailto:gents_coiffeur@gmail.com?subject=test&cc=info@gentscoiffeur.com" target="_top"><p class="fs-4 fw-bold pt-2">PRE-ORDER NOW</p></a>
+                     </div>
+                     <div class="col-sm-4 py-5 trending">
+                        <h2 class="fw-semibold pb-3">TRENDING</h2>
+                        <iframe width="417.5" height="315" src="https://www.youtube.com/embed/yeYF-BAsWXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                  </div>
+               </section>
+               <footer class="col-sm-12">
+                  <div class="col-sm-8 offset-sm-2 row py-5 gc_footer">
+                     <img class="col-sm-3" src="images/coiffeur.png" alt="coiff_enterprise_ltd" title="coiffeur footer image">
+                     <p class="col-sm-4 ms-auto m-0 p-0">&copy; 2022 Gent's Coiffeur Ltd. All Rights Reserved.</p>
+                  </div>
+               </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

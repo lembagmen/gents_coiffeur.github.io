@@ -1,0 +1,68 @@
+header{
+   background-color: lightgray;
+   padding: 20px;
+   text-align: center;
+}
+nav{
+   background-color: #333;
+   padding: 20px;
+   text-align: center;
+}
+nav a{
+   color: aliceblue;
+   text-decoration: none;
+   padding: 20px;
+}
+nav a:hover{
+   background-color: aliceblue;
+   color: #333;
+}
+footer{
+   float: left;
+   background-color: lightgreen;
+   text-align: center;
+   padding:10px;
+   width: 100%;
+}
+.column{
+   box-sizing: border-box;
+   padding: 0px 20px 30px 20px;
+   border: 1px solid green;
+   float: left;
+   width: 33.33%;
+   height: 70vh;
+}
+@media screen and (max-width:540px){
+   .column{
+      box-sizing: border-box;
+      padding: 0px 20px 30px 20px;
+      float: none;
+      width: 100%;
+      height: 100%
+   }
+}
+.paragraph-scroll{
+   height: 89.5%;
+   overflow:auto;
+   text-align: justify;
+}
+p{
+   padding: 10px;
+}
+.construction_barber{
+   width: calc(65%);
+   float: left;
+   padding: 0px 8px 8px 0px;
+}
+.pomade_1{
+   width: calc(60%);
+   float: right;
+   padding: 8px 0px 0px 8px;
+}
+.pomade_2{
+   width: 100%;
+}
+.long_trim_pompadour{
+   width: 65%;
+   border-radius: 5px;
+}
